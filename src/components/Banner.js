@@ -20,7 +20,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}> */}
                 {/* <span className="tagline">Welcome to my Portfolio</span> */}
                 <h1>{`Hi! I'm Henri Roquain`} </h1>
-                  <p>A passionate and analytical individual with a strong foundation in programming languages, algorithms, 
+                  <p>An aspiring front-end developer. A passionate and analytical individual with a strong foundation in programming languages, algorithms, 
                     data structures, and web and mobile app development technologies. 
                     These were gained through two major projects: The Teamwork Collaboration Tool and Meal Mate which was 
                     successfully completed during the final academic year. 

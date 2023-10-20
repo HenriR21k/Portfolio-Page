@@ -3,6 +3,14 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+
+import mealmate from "../assets/img/mealmate.png";
+import virtuteams from "../assets/img/VirtuTeam.png";
+import diaryapp from "../assets/img/diaryapp.png";
+import scorecard from "../assets/img/scorecardapp.png";
+import portfolio from "../assets/img/thiswebsite.png";
+import first from "../assets/img/firstreact.png";
+
 //import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,19 +19,40 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
+      title: "VirtuTeam",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: virtuteams,
+      githubURL: "",
     },
     {
-      title: "Business Startup",
+      title: "MealMate",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: mealmate,
+      githubURL: "",
     },
     {
-      title: "Business Startup",
+      title: "React First Project",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: first,
+      githubURL: "",
+    },
+    {
+      title: "Portfolio Website",
+      description: "Design & Development",
+      imgUrl: portfolio,
+      githubURL: "",
+    },
+    {
+      title: "React Native First Project",
+      description: "Design & Development",
+      imgUrl: scorecard,
+      githubURL: "",
+    },
+    {
+      title: "Student Reading Diary App",
+      description: "Design & Development",
+      imgUrl: diaryapp,
+      githubURL: "",
     }
   ];
 
@@ -54,5 +83,9 @@ export const Projects = () => {
       </Container>
       {/* <img className="background-image-right" src={colorSharp2}></img> */}
     </section>
+
+  
+
+
   )
 }
