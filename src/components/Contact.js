@@ -8,24 +8,16 @@ import 'animate.css';
 export const Contact = () => {
 
   const form = useRef();
-
-  const formInitialDetails = {
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    message: ''
-  }
-  const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Send');
   const [status, setStatus] = useState({});
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_er0ozhr', 'template_wsynswp', form.current, 'o8U9qu_3Y0VaPrKj1')
+    emailjs.sendForm('service_er0ozhr', 'template_atgo7vf', form.current, 'o8U9qu_3Y0VaPrKj1')
       .then((result) => {
           console.log(result.text);
+          console.log(form.current);
           setStatus({ message: "Email sent successfully", success: true });
           setButtonText('Sent');
       }, (error) => {
