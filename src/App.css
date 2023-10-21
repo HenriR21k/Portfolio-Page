@@ -162,6 +162,7 @@ nav.navbar.scrolled .navbar-nav .nav-link.navbar-link {
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
+    
 }
 span.navbar-text {
     display: flex;
@@ -190,6 +191,14 @@ nav.navbar.scrolled .navbar-text button {
       position: relative;
       background-color: transparent;
       transition: 0.3s ease-in-out;
+  }
+
+
+nav.navbar.scrolled .navbar-text button:hover {
+  background-color: white;
+  
+  transition: 0.3s ease-in-out;
+    color: #000000; /* Optionally change text color on hover */
   }
 
 .navbar-text button span {
@@ -372,6 +381,8 @@ nav.navbar .navbar-toggler:focus {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  margin-bottom: 50px;
+  margin-top: -28px;
 }
 .project p {
   color: #B8B8B8;
@@ -458,11 +469,12 @@ nav.navbar .navbar-toggler:focus {
 .proj-item-container {
   position: relative;
   border-radius: 30px;
+  height: 550px;
   overflow: hidden;
   margin-bottom: 24px;
   border: gray solid 1px;
   text-align: center; /* Center align content within the container */
-  padding: 20px; /* Add padding for spacing */
+  /* padding: 20px; */
 }
 
 .projimg {
@@ -485,25 +497,66 @@ nav.navbar .navbar-toggler:focus {
 }
 
 .proj-Buttons {
-  margin: 10px 0; /* Add margin for spacing */
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  text-align: center;
 }
 
 .proj-Buttons button {
   display: inline-block;
   margin: 0 10px;
-  border: 2px solid #333; /* Add a border to the buttons */
-  padding: 5px 10px; /* Add padding for spacing inside the button */
-  background-color: whitesmoke; /* Set the background color to white */
+  border: 2px solid #333;
+  padding: 5px 10px;
+  background-color: whitesmoke;
   border-radius: 20px;
-  color: #333; /* Set the text color to a dark color */
-  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+  margin-bottom: 20px;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .proj-Buttons button:hover {
-  background-color: #333; /* Invert the background color on hover */
-  color: #fff; /* Invert the text color on hover */
-  cursor: pointer; /* Change the cursor on hover to indicate interactivity */
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
 }
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.overlay-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  z-index: 1000;
+}
+
+.overlay img {
+  max-width: 1000px;
+  max-height: 600px; /* Limit the image height to 80% of the viewport height */
+}
+
+.overlay img:hover {
+  cursor: pointer;
+}
+
+/* You can add additional styling to customize the overlay as needed. */
+
 
 
 
