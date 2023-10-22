@@ -1,7 +1,7 @@
 import { Col } from "react-bootstrap";
 import { useState } from "react";
 
-export const ProjectCard = ({ title, description, imgUrl }) => {
+export const ProjectCard = ({ title, description, imgUrl, githubURL, demo }) => {
 
   const [overlayOpen, setOverlayOpen] = useState(false);
 
@@ -25,8 +25,12 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
             {description}
           </div>
           <div className="proj-Buttons">
-            <button>Github</button>
-            <button>Live Demo</button>
+          {githubURL && (
+            <button onClick={() => window.open(githubURL, "_blank")}>Github</button>
+          )}
+            {demo && (
+            <button onClick={() => window.open(demo, "_blank")}>Live Demo</button>
+          )}
           </div>
       </div>
       {overlayOpen && (
