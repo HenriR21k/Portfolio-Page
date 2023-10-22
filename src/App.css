@@ -120,9 +120,7 @@ p.danger {
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
-/* .social-icon a:hover img {
-	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
-} */
+
 
 nav.navbar {
   padding: 18px 0;
@@ -237,10 +235,14 @@ nav.navbar.scrolled .navbar-text button:hover {
 	height: 100%;
 	position: absolute;
 }
+
+
+
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
 	outline: none;
-    box-shadow: none;
+  box-shadow: none;
+
 }
 
 
@@ -250,17 +252,13 @@ nav.navbar .navbar-toggler:focus {
   margin-top: 0;
   padding: 260px 0 100px 0;
   background-color: whitesmoke;
-  /* background-image: url('./assets/img/banner-bg.png');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat; */
+
 }
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
-  /* border: 1px solid rgba(255, 255, 255, 0.5); */
+
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
@@ -307,23 +305,6 @@ nav.navbar .navbar-toggler:focus {
   flex-wrap: wrap;
 }
 
-/* .banner img {
-  animation: updown 3s linear infinite;
-}
-@keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
-}
-.txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
-} */
 
 /************ Skills Css ************/
 .skill {
@@ -448,23 +429,6 @@ nav.navbar .navbar-toggler:focus {
 }
 
 
-/* .proj-item-container {
-  position: relative;
-  border-radius: 30px;
-  overflow: hidden;
-  margin-bottom: 24px;
-  border: #000 solid 10px;
-}
-
-.projimg {
-  height: auto;
-  padding: 10px
-}
-
-
-.proj-Buttons {
-  margin-bottom: 24px;
-} */
 
 .proj-item-container {
   position: relative;
@@ -555,60 +519,7 @@ nav.navbar .navbar-toggler:focus {
   cursor: pointer;
 }
 
-/* You can add additional styling to customize the overlay as needed. */
 
-
-
-
-/* .background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
-} */
-
-
-/* .proj-txtx {
-  position: absolute;
-  text-align: center;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
-  opacity: 0;
-  width: 100%;
-}
-.proj-imgbx:hover .proj-txtx {
-  top: 50%;
-  opacity: 1;
-}
-.proj-txtx h4 {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
-}
-.proj-txtx span {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 0.8px;
-} */
-
-/* .proj-imgbx::before {
-  content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  opacity: 0.85;
-  position: absolute;
-  width: 100%;
-  height: 0;
-  transition: 0.4s ease-in-out;
-}
-.proj-imgbx:hover::before {
-  height: 100%;
-} */
 
 
 
@@ -617,20 +528,16 @@ nav.navbar .navbar-toggler:focus {
 /************ Projects Css ************/
 .contact {
   background: whitesmoke;
-  /* padding: 60px 0 200px 0; */
-  /* border: solid red; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+
 }
 
 .contactform {
-    /* border: solid red; */
-    max-width: 600px; /* Set a maximum width for the form */
-    padding: 20px; /* Add some padding for spacing */
+   
+    max-width: 600px;
+    padding: 20px; 
     
-    margin: 0 auto; /* Center the form horizontally using margin */
-    width: 100%; /* Ensure the form takes the full available width */
+    margin: 0 auto; 
+    width: 100%; 
     
 }
 
@@ -705,10 +612,7 @@ nav.navbar .navbar-toggler:focus {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  /* background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; */
+ 
 }
 .newsletter-bx {
   background: #FFFFFF;
@@ -734,7 +638,7 @@ nav.navbar .navbar-toggler:focus {
 }
 .new-email-bx::before {
   content: "";
-  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
+  
   border-radius: 20px;
   position: absolute;
   z-index: -1;
@@ -763,7 +667,7 @@ nav.navbar .navbar-toggler:focus {
   padding: 0 15px;
 }
 .new-email-bx button {
-  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
+  
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
@@ -775,16 +679,7 @@ nav.navbar .navbar-toggler:focus {
     background-color: whitesmoke;
 }
 
-/* .footer img {
-  width: 26%;
-}
-.footer p {
-  font-weight: 400;
-  font-size: 14px;
-  color: #B8B8B8;
-  letter-spacing: 0.5px;
-  margin-top: 20px;
-} */
+
 
 
 /*TEST CODE GAP*/
@@ -828,12 +723,7 @@ nav.navbar .navbar-toggler:focus {
 
 .article-container {
   border: orange solid 20px;
-  /* display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around; */
+
   
 }
 

@@ -18,10 +18,8 @@ export const Banner = () => {
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
                 <h1>{`Hi! I'm Henri Roquain`} </h1>
-                  <p>An aspiring front-end developer. A passionate and analytical individual with a strong foundation in programming languages, algorithms, 
+                  <p>Front-end developer. A passionate and analytical individual with a strong foundation in programming languages, algorithms, 
                     data structures, and web and mobile app development technologies. 
-                    These were gained through two major projects: The Teamwork Collaboration Tool and Meal Mate which was 
-                    successfully completed during the final academic year. 
                     I am eager to learn new technologies, take on challenging projects, 
                     and grow professionally in a supportive and dynamic work environment. 
                     As a Computer Science graduate, I am actively seeking a graduate position as a front-end developer.</p>
