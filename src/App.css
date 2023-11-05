@@ -445,12 +445,12 @@ nav.navbar .navbar-toggler:focus {
   overflow: hidden;
   margin-bottom: 24px;
   border: gray solid 1px;
-  text-align: center; /* Center align content within the container */
-  /* padding: 20px; */
+  text-align: center; 
+  
 }
 
 .projimg {
-  width: 100% /* Ensure the image takes the full width of the container */
+  width: 100%;
   
 }
 
@@ -460,34 +460,27 @@ nav.navbar .navbar-toggler:focus {
 
 .proj-content {
   
-  text-align: center; /* Center align content within the container */
+  text-align: center; 
 }
 
 .proj-Header {
-  font-size: 24px; /* Increase the font size to make it bigger */
-  font-weight: bold; /* Make the font weight bolder */
-  margin: 10px 0; /* Add margin for spacing */
+  font-size: 24px; 
+  font-weight: bold; 
+  margin: 5px 0; 
 }
 
 .proj-Description {
-  margin: 10px 0; /* Add margin for spacing */
+  /* margin: 10px 0; */
   padding-left: 15px;
   padding-right: 15px;
   text-align: justify;
 }
 
 .proj-Buttons {
-  /* position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+
   margin-top: auto;
   text-align: center;
-  border: 5px solid red; */
-  margin-top: auto;
-  text-align: center;
-  border: 1px solid red;
-  padding: 10px; /* Add padding to the buttons for spacing */
+  padding: 10px; 
 }
 
 .proj-Buttons button {
@@ -535,15 +528,12 @@ nav.navbar .navbar-toggler:focus {
 
 .overlay img {
   max-width: 1000px;
-  max-height: 600px; /* Limit the image height to 80% of the viewport height */
+  max-height: 600px; 
 }
 
 .overlay img:hover {
   cursor: pointer;
 }
-
-
-
 
 
 

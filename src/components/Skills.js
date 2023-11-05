@@ -6,11 +6,11 @@ import reactImg from "../assets/img/physics.png";
 import HTML from "../assets/img/html.png";
 import css from "../assets/img/css-3.png";
 import node from "../assets/img/nodejs.png";
+import express from "../assets/img/expressjs.png";
 import Junit from "../assets/img/junit.png";
 import Java from "../assets/img/java.png";
 import python from "../assets/img/python.png";
 import javascript from "../assets/img/js.png";
-import express from "../assets/img/express.png";
 import mysql from "../assets/img/mysqllogo.png"
 
 import Carousel from 'react-multi-carousel';
