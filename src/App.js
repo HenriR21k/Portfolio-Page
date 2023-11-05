@@ -8,8 +8,13 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import ReactDOM from 'react-dom';
+import ReactGA from 'react-ga';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-function App() {
+
+const App = () => {
+  
   return (
     <div className="App">
       <NavBar />
@@ -22,5 +27,8 @@ function App() {
     </div>
   );
 }
+
+
+
 
 export default App;
