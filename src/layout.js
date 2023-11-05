@@ -14,7 +14,7 @@ const Layout = () => {
     // Properties ----------------------------
     // Hooks ---------------------------------
     // Context -------------------------------
-    const TRACKING_ID = "G-J61FRTS92Q";
+    const TRACKING_ID = "G-Q9V17TZXVQ";
     ReactGA.initialize(TRACKING_ID);
   
     const location = useLocation();
