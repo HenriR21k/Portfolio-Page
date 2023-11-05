@@ -27,18 +27,15 @@ export const Banner = () => {
                     <button onClick={() => window.open(CV)}>View CV</button>
                     <Router>
                       <HashLink to='#connect'>
-                      <button>Let’s Connect <ArrowRightCircle size={25} /></button>
+                      <button>Let's Connect <ArrowRightCircle size={25} /></button>
                       </HashLink>
                     </Router>
 
                   </div>
-              {/* </div>} */}
-            {/* </TrackVisibility> */}
+    
           </Col>
           <Col xs={12} md={6} xl={3}>
-            {/* <TrackVisibility>
-              {({ isVisible }) => */}
-                {/* <div className={isVisible ? "animate__animated animate__zoomIn" : ""}> */}
+       
                   <img src={profileImg} alt="Header Img"/>
                     <span className="navbar-text">
                       <div className="social-icon">
@@ -46,9 +43,7 @@ export const Banner = () => {
                         <a href="https://github.com/HenriR21k"><img src={navIcon2} alt="" /></a>
                       </div> 
                     </span>
-                 {/* </div>  */}
-                {/* } */}
-            {/* </TrackVisibility> */}
+        
           </Col>
         </Row>
       </Container>

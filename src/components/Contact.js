@@ -34,7 +34,6 @@ export const Contact = () => {
           <h2>Get In Touch</h2>
           <form ref={form} onSubmit={sendEmail}> {/* Use the sendEmail function for the form submission */}
             <Row>
-              {/* Input fields and styling */}
               <Col size={12} sm={6} className="px-1">
                 <label>Name</label>
                 <input type="text" name="user_name" />
