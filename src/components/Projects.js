@@ -1,8 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 
 import mealmate from "../assets/img/mealmate2.png";
 import virtuteams from "../assets/img/VirtuTeam.png";
@@ -11,7 +8,6 @@ import scorecard from "../assets/img/scorecardapp2.png";
 import portfolio from "../assets/img/thiswebsite2.png";
 import first from "../assets/img/firstreact.png";
 
-//import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -28,13 +24,13 @@ export const Projects = () => {
       title: "Portfolio Website",
       description: "I'm using Bootstrap to craft a dynamic portfolio website. This project is an opportunity to enhance my design abilities while showcasing my work. It's a platform for refining my design skills and presenting my portfolio. This website is still in development",
       imgUrl: portfolio,
-      githubURL: "https://github.com/HenriR21k/Student-Diary-Reading-App",
+      githubURL: "https://github.com/HenriR21k/Portfolio-Page",
     },
     {
       title: "React First Project",
       description: "My first React project involved creating card-based modules display, allowing for module creation, updating, and deletion. This summer project enabled me to learn React.js and Express.js.",
       imgUrl: first,
-      githubURL: "https://github.com/HenriR21k/MealMate",
+      githubURL: "https://github.com/HenriR21k/react-first-project",
     },
     {
       title: "MealMate",

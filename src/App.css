@@ -25,6 +25,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
+  
 }
 
 body {
@@ -245,16 +246,133 @@ nav.navbar .navbar-toggler:focus {
 
 }
 
+/*About me */
 
-
-/************ Banner Css ************/
-.banner {
+.Banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 100px 0 0px 0;
+  background-color: whitesmoke;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+  background-color: whitesmoke;
+}
+
+.section__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: gray;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+  width: 42px;
+    height: 42px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container {
+  gap: 1rem;
+}
+
+
+
+
+/************ About me Css ************/
+.AboutMe {
+  margin-top: 0;
+  padding: 260px 0px 50px 0px;
   background-color: whitesmoke;
 
 }
-.banner .tagline {
+.AboutMe .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
@@ -263,7 +381,7 @@ nav.navbar .navbar-toggler:focus {
   margin-bottom: 16px;
   display: inline-block;
 }
-.banner h1 {
+.AboutMe h1 {
   font-size: 65px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -271,40 +389,95 @@ nav.navbar .navbar-toggler:focus {
   margin-bottom: 20px;
   display: block;
 }
-.banner p {
-  /* color: #B8B8B8; */
+.AboutMe p {
+  
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
-.banner button {
-  /* color: #fff; */
+.AboutMe button {
+  
   font-weight: 700;
   font-size: 20px;
   margin-top: 20px;
   margin-right: 25px;
   letter-spacing: 0.8px;
   display: flex;
-  /* align-items: center; */
-  /* border: red solid; */
+ 
 }
-.banner button svg {
+.AboutMe button svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
-.banner button:hover svg {
+.AboutMe button:hover svg {
   margin-left: 25px;
 }
 
 .profileBtn {
-  /* border: red solid; */
+ 
   display: flex;
   flex-wrap: wrap;
 }
 
+
+
+/*About me*/
+
+.AboutMe{
+  position: relative;
+  
+  
+}
+
+.about-containers1 {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+}
+
+.about-details-container1 {
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+
+.about-containers1,
+.about-details-container1 {
+  display: flex;
+ 
+}
+
+.about-pic1 {
+  border-radius: 2rem;
+}
+
+.details-container1 {
+  padding: 1.5rem;
+  flex: 1;
+  background: whitesmoke;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  width: 200px
+}
+
+.section-container1 {
+  gap: 4rem;
+  height: 80%;
+ 
+}
+
+.section__pic-container1 {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+
+}
 
 /************ Skills Css ************/
 .skill {
@@ -623,7 +796,7 @@ nav.navbar .navbar-toggler:focus {
 }
 
 /************ Footer Css ************/
-.footer {
+/* .footer {
   padding: 0 0 50px 0;
  
 }
@@ -690,7 +863,7 @@ nav.navbar .navbar-toggler:focus {
 
 .footer {
     background-color: whitesmoke;
-}
+} */
 
 
 
