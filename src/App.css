@@ -312,6 +312,7 @@ nav.navbar .navbar-toggler:focus {
   position: relative;
   /* border: solid red; */
   background-color: whitesmoke;
+  z-index: 1;
   
 }
 .skill-bx {
@@ -345,11 +346,15 @@ nav.navbar .navbar-toggler:focus {
   margin: 0 auto 15px auto;
 }
 .background-image-left {
-  top: 28%;
+  /* top: 28%;
   position: absolute;
   bottom: 0;
   width: 40%;
-  z-index: -4;
+  z-index: -4; */
+}
+
+.react-multiple-carousel__arrow {
+  
 }
 
 /************ Projects Css ************/
@@ -431,9 +436,12 @@ nav.navbar .navbar-toggler:focus {
 
 
 .proj-item-container {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
   border-radius: 30px;
-  height: 550px;
+  min-height: 550px;
+  height: auto;
   overflow: hidden;
   margin-bottom: 24px;
   border: gray solid 1px;
@@ -446,7 +454,12 @@ nav.navbar .navbar-toggler:focus {
   
 }
 
+.projimg:hover {
+  /* width: 200% ; */
+}
+
 .proj-content {
+  
   text-align: center; /* Center align content within the container */
 }
 
@@ -458,15 +471,23 @@ nav.navbar .navbar-toggler:focus {
 
 .proj-Description {
   margin: 10px 0; /* Add margin for spacing */
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
 }
 
 .proj-Buttons {
-  position: absolute;
-  bottom: 10px;
+  /* position: absolute;
+  bottom: 0;
   left: 0;
   right: 0;
-  margin: 0;
+  margin-top: auto;
   text-align: center;
+  border: 5px solid red; */
+  margin-top: auto;
+  text-align: center;
+  border: 1px solid red;
+  padding: 10px; /* Add padding to the buttons for spacing */
 }
 
 .proj-Buttons button {
@@ -498,7 +519,8 @@ nav.navbar .navbar-toggler:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  z-index: 5;
+  
 }
 
 .overlay-content {
@@ -507,7 +529,8 @@ nav.navbar .navbar-toggler:focus {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   text-align: center;
-  z-index: 1000;
+  z-index: 6;
+  
 }
 
 .overlay img {
