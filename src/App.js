@@ -13,15 +13,12 @@ import ReactGA from 'react-ga';
 import Layout from './layout';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
-const TRACKING_ID = "G-J61FRTS92Q"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+import { useLocation } from 'react-router-dom';
 
 
 const App = () => {
 
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
+
   
   return (
   
