@@ -29,7 +29,7 @@ export const AboutMe = () => {
               <div class="col-md-6">
                 <div class="about-containers1">
                   <div class="details-container1">
-                    <img src="./assets/experience.png" alt="" class="icon" />
+                    {/* <img src="./assets/experience.png" alt="" class="icon" /> */}
                     <h3>Experience</h3>
                     <p>1+ years <br />Frontend + Backend Development</p>
                   </div>
@@ -38,7 +38,7 @@ export const AboutMe = () => {
               <div class="col-md-6">
                 <div class="about-containers1">
                   <div class="details-container1">
-                    <img src="./assets/education.png" alt="" class="icon" />
+                    {/* <img src="./assets/education.png" alt="" class="icon" /> */}
                     <h3>Education</h3>
                     <p>B.Sc. Bachelors Degree<br />First Class with Honours</p>
                   </div>
