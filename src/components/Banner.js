@@ -24,13 +24,11 @@ export const Banner = () => {
                     <button class="btn-color-2" onClick={() => window.open(CV)}>
                         Download CV
                     </button>
-                      <Router>
-                        <HashLink to='#connect'>
-                          <button class="btn-color-2">
-                              Contact Me
-                          </button>
-                        </HashLink>
-                      </Router>
+                    {/* <button class="btn-color-2" onclick="location.href='#connect'">
+                      Contact Me
+                    </button> */}
+
+                    
                   </div>
                     <div id="socials-container">
                     <a href="https://www.linkedin.com/in/henri-roquain-b9b300204/"><img src={linkedIn} class="icon" alt="" /></a>

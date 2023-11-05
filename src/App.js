@@ -10,22 +10,28 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import ReactDOM from 'react-dom';
 import ReactGA from 'react-ga';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Layout from './layout';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+const TRACKING_ID = "G-J61FRTS92Q"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 
 const App = () => {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   
   return (
-    <div className="App">
-      <NavBar />
-      <Banner/>
-      <AboutMe />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
-  );
+  
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout />}/>
+      </Routes>
+    </BrowserRouter>
+  
+);
 }
 
 
