@@ -15,8 +15,23 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
+const TRACKING_ID = "G-Q9V17TZXVQ";
+ReactGA.initialize(TRACKING_ID);
+
+
+
+
 
 const App = () => {
+
+  useEffect(() => {
+    ReactGA.send({
+      hitType: "pageview",
+      page: window.location.pathname + window.location.search,
+      title: "Home Page",
+    });
+
+  }, [])
 
 
   

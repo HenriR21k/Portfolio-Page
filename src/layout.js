@@ -14,13 +14,7 @@ const Layout = () => {
     // Properties ----------------------------
     // Hooks ---------------------------------
     // Context -------------------------------
-    const TRACKING_ID = "G-Q9V17TZXVQ";
-    ReactGA.initialize(TRACKING_ID);
-  
-    const location = useLocation();
-    useEffect(() => {
-      ReactGA.pageview(location.pathname + location.search);
-    }, [location]);
+   
     // Methods -------------------------------
     // View ---------------------------------
 
